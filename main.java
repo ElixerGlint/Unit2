@@ -36,5 +36,20 @@ public class main {
             }
         }
 
+
+        //fizz buzz game
+
+        for(int i = 0; i < 101; i++) {
+            if(i%3 != 0 && i%5 != 0) {
+                System.out.println(i);
+            }
+            if(i%3 == 0) {
+                System.out.print("fizz");
+            }
+            if(i%5 == 0) {
+                System.out.print("buzz");
+            }
+
+        }
     }
 }
