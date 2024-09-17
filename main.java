@@ -1,3 +1,8 @@
+
+
+import java.util.Scanner;
+
+
 public class main {
     public static void main(String[] args) throws Exception {
         int count = 1;
@@ -14,6 +19,15 @@ public class main {
         for(int i =1; i<limit; i+=2) {
             System.out.println(i+" ");
         }
+        Scanner input = new Scanner(System.in);
+
+
+        String phone;
+        do {
+            System.out.println("Enter your phone number");
+            phone = input.nextLine();
+        }while(phone.length()!= 10); 
+
 
     }
 }
