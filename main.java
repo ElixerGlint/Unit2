@@ -1,4 +1,6 @@
-
+//Loops
+//Everett Rumery
+//9/17/24
 
 import java.util.Scanner;
 
